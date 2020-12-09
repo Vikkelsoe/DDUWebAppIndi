@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Indiviuelle øvelser</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body style="background-color: powderblue">
+    <!-- Add your site or application content here -->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+    <!-- Min egen kode og eksempler starter er -->
+    <header>
+      <nav>
+        <a href="/index.html">Forside</a> | <a href="/side2">Side 2</a> |
+        <a href="/side3">Side 3</a>
+      </nav>
+    </header>
+
+    <div id id="brodtekst">
+      <div class="jaer">
+        <h1>Min test-side</h1>
+      </div>
+      <div class="jaer">
+        <p>
+          <em>Lomrem ipsum</em> <br />
+          Dolor <span style="color: blue; font-weight: bold">sit</span> amet
+        </p>
+
+        <aside>Test på et aside-element</aside>
+      </div>
+      <section>Her er der lige noget tekst i en sektion.</section>
+      <section>Her er der lige noget tekst i en anden sektion.</section>
+    </div>
+    <section>
+      <p>Vejret er:</p>
+
+      <ol>
+        <li>godt</li>
+        <li>smukt</li>
+        <li>strålende</li>
+      </ol>
+
+      <p>Se mere på <a href="https://www.dmi.dk/" target="_blank">DMI</a>.</p>
+    </section>
+
+    <form action="whateverdude.php">
+      <label for="brugernavn">Brugernavn:</label>
+      <input
+        type="text"
+        name="brugernavn"
+        id="brugernavn"
+        value="Slet og indtast her"
+        required
+      />
+      <label for="sind">Vælg sindstilstand:</label>
+      <select name="sind">
+        <option>Glad</option>
+        <option>Sur</option>
+        <option>Psykopat</option>
+      </select>
+      <input type="submit" value="Tryk her dude!" />
+    </form>
+
+    <img
+      src="https://images2.memedroid.com/images/UPLOADED3/50916b231e57e.jpeg"
+      width="699"
+      height="465"
+      alt="Surprise motherfucker meme"
+    />
+  </body>
+
+  <canvas
+    id="myCanvas"
+    width="200"
+    height="100"
+    style="border: 1px solid #d3d3d3"
+  >
+    Your browser does not support the HTML canvas tag.</canvas
+  >
+
+  <footer>
+    <p>
+      Udvikler: Christian Vikkelsø <br />
+      Kontak: surprise@motherfucker.dk
+    </p>
+  </footer>
+
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+    ctx.stroke();
+  </script>
+</html>
