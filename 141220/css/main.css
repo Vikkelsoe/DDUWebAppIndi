@@ -268,11 +268,8 @@ h1 {
   color: orange;
 }
 
-.mdl-layout__content {
-  margin-top: 20%;
-  /*background-color: navy;*/
-  background-image: linear-gradient(rgba(0, 0, 128, 0), rgba(0, 0, 128, 1));
-  padding: 5%;
+body {
+  background-color: navy;
 }
 
 .mdl-layout__header-row {
@@ -288,11 +285,24 @@ h1 {
 }
 
 #forsideTekst {
+  margin-top: 20%;
+  background-image: linear-gradient(rgba(0, 0, 128, 0), rgba(0, 0, 128, 1));
+  padding: 5%;
   color: white;
   font-weight: bold;
+}
+
+#tabTekst {
+  color: white;
 }
 
 #card {
   float: left;
   margin: 1%;
+}
+
+#form {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
