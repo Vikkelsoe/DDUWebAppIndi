@@ -268,10 +268,6 @@ h1 {
   color: orange;
 }
 
-body {
-  background-color: navy;
-}
-
 .mdl-layout__header-row {
   background: rgba(0, 0, 128, 0.5);
 }
@@ -292,13 +288,18 @@ body {
   font-weight: bold;
 }
 
-#tabTekst {
-  color: white;
+#navyTekst {
+  color: navy;
+}
+
+#navyCenterTekst {
+  color: navy;
+  text-align: center;
 }
 
 #card {
   float: left;
-  margin: 1%;
+  padding: 0.75%;
 }
 
 #form {
