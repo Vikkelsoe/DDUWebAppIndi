@@ -42,6 +42,10 @@ indigo-orange.min.css"
         color: white;
       }
     </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
@@ -58,12 +62,28 @@ indigo-orange.min.css"
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Vores uddannelser</a>
+            <a class="mdl-navigation__link" href="uddannelser.html"
+              >Vores uddannelser</a
+            >
             <a class="mdl-navigation__link" href="besøg.html">Besøg os</a>
             <a class="mdl-navigation__link" href="">Team Danmark</a>
             <a class="mdl-navigation__link" href="kontakt.html">Kontakt</a>
-            <a class="mdl-navigation__link" href="login.html">Log ind</a>
+            <a id="submenu" class="mdl-navigation__link" href="#">Profil</a>
           </nav>
+          <ul
+            class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+            for="submenu"
+          >
+            <li class="mdl-menu__item">
+              <a class="subMenuLink" href="login.html">Log ind</a>
+            </li>
+            <li class="mdl-menu__item">
+              <a class="subMenuLink" href="#">Skema</a>
+            </li>
+            <li class="mdl-menu__item">
+              <a class="subMenuLink" href="#">Afleveringer</a>
+            </li>
+          </ul>
         </div>
       </header>
 
@@ -72,7 +92,10 @@ indigo-orange.min.css"
           >Vestskoven Gymnasium</span
         >
         <nav class="mdl-navigation">
-          <a id="sideMenuLink" class="mdl-navigation__link" href=""
+          <a
+            id="sideMenuLink"
+            class="mdl-navigation__link"
+            href="uddannelser.html"
             >Vores uddannelser</a
           >
           <a id="sideMenuLink" class="mdl-navigation__link" href="besøg.html"
@@ -84,9 +107,18 @@ indigo-orange.min.css"
           <a id="sideMenuLink" class="mdl-navigation__link" href="kontakt.html"
             >Kontakt</a
           >
-          <a id="sideMenuLink" class="mdl-navigation__link" href="login.html"
-            >Log ind</a
-          >
+          <a id="sideMenuLink" class="mdl-navigation__link" href="#">Profil</a>
+          <ul>
+            <li class="mdl-navigation__link">
+              <a class="subMenuLink" href="login.html">Log ind</a>
+            </li>
+            <li class="mdl-navigation__link">
+              <a class="subMenuLink" href="#">Skema</a>
+            </li>
+            <li class="mdl-navigation__link">
+              <a class="subMenuLink" href="#">Afleveringer</a>
+            </li>
+          </ul>
         </nav>
       </div>
 
@@ -136,11 +168,11 @@ indigo-orange.min.css"
         </div>
         <div>
           <ul class="mdl-mini-footer__link-list">
-            <li><a href="#">Vores uddannelser</a></li>
+            <li><a href="uddannelser.html">Vores uddannelser</a></li>
             <li><a href="besøg.html">Besøg os</a></li>
             <li><a href="#">Team Danmark</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="login.html">Log ind</a></li>
+            <li><a href="#">Profil</a></li>
           </ul>
         </div>
         <div class="mdl-mini-footer__right-section">
