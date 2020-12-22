@@ -321,3 +321,43 @@ h1 {
 .cen {
   margin: auto;
 }
+
+table.ugeskema {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+
+.ugeskema td {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+.ugeskema th {
+  background-color: #dddddd;
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+.ugeskema h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.ugeskema tr:first-child {
+  border: 1px solid #000000;
+}
+
+.ugeskema tr:first-child td {
+  border: none;
+}
+
+.goleft {
+  float: left;
+}
+
+.goright {
+  float: right;
+}
