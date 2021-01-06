@@ -107,11 +107,11 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .besoeghero {
   /* Sizing */
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
 
   /* Flexbox stuff */
   display: flex;

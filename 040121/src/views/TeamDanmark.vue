@@ -27,11 +27,11 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 .teamDKhero {
   /* Sizing */
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
 
   /* Flexbox stuff */
   display: flex;

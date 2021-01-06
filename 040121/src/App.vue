@@ -8,7 +8,7 @@
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation. We hide it in small screens. -->
         <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <router-link class="mdl-navigation__link" to="/">Nyheder</router-link>
+          <router-link class="mdl-navigation__link" to="/">Forside</router-link>
           <router-link class="mdl-navigation__link" to="/uddannelser"
             >Uddannelser</router-link
           >
@@ -59,7 +59,7 @@
     <div class="mdl-layout__drawer">
       <span class="mdl-layout-title">Vestskoven Gymnasium</span>
       <nav class="mdl-navigation">
-        <router-link class="mdl-navigation__link" to="/">Nyheder</router-link>
+        <router-link class="mdl-navigation__link" to="/">Forside</router-link>
         <router-link class="mdl-navigation__link" to="/uddannelser"
           >Uddannelser</router-link
         >

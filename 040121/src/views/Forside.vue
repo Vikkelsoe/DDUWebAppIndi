@@ -58,7 +58,7 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 .hero {
   /* Sizing */
   width: 100vw;

@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Nyheder from "../views/Nyheder.vue";
+import Forside from "../views/Forside.vue";
 import KontaktOs from "../views/KontaktOs.vue";
 import Uddannelser from "../views/Uddannelser.vue";
 import BesøgOs from "../views/BesøgOs.vue";
@@ -11,7 +11,7 @@ import Afleveringer from "../views/Afleveringer.vue";
 const routes = [
   {
     path: "/",
-    component: Nyheder,
+    component: Forside,
   },
   {
     path: "/kontaktos",
